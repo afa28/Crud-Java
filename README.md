@@ -1,6 +1,6 @@
-# CRUD-MVC-SQL
+# CRUD-SQL
  
- Contoh Penggunaan CRUD pada Data Mahaiswa
+ Contoh Penggunaan pada Data Mahaiswa
  1. Tampilkan Data
  2. Hapus Data
  3. Ubah Data
@@ -9,7 +9,7 @@
  6. Urutkan Data
  7. Pagination
  
-Pengaturan Database (Silahkan Inport Database Terlebih Dahulu) 
+Pengaturan Database (Silahkan Import Database Terlebih Dahulu) 
 - Database : mahasiswa
 - Username : root
 - password : 
