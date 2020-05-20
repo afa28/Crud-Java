@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Waktu pembuatan: 08 Okt 2019 pada 14.12
--- Versi server: 10.4.6-MariaDB
--- Versi PHP: 7.3.9
+-- Host: localhost:3306
+-- Waktu pembuatan: 20 Bulan Mei 2020 pada 19.24
+-- Versi server: 10.4.12-MariaDB-log
+-- Versi PHP: 7.4.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -45,23 +44,11 @@ INSERT INTO `data_mahasiswa` (`id`, `nim`, `nama_lengkap`, `jenis_kelamin`, `jur
 (1, 'H11112285', 'ANDI FAHRUDDIN AKAS, S.Si', 'Perempuan', 'Matematika', 1),
 (2, 'H11112286', 'ANDI NUR HIKMA', 'Perempuan', 'Statistika', 1),
 (3, 'H11112287', 'ANDI IRFAN', 'Laki-laki', 'Ilmu Komputer', 1),
-(4, 'jlkjljLJLJ', 'ljklkjl', 'Laki-laki', 'Matematika', 1),
-(5, 'irpang', '1234567890-', 'Laki-laki', 'Matematika', 1),
-(6, '2', 'C', 'Perempuan', 'Matematika', 1),
-(7, '3', 'B', 'Perempuan', 'Matematika', 1),
-(8, 'irpang', '1234567890-', 'Laki-laki', 'Matematika', 1),
-(9, 'irpang', '1234567890-', 'Laki-laki', 'Matematika', 1),
-(10, 'irpang1', 'kl;k', 'Perempuan', 'Matematika', 1),
-(11, 'ljjl', 'jljlj', 'Perempuan', 'Statistika', 1),
-(12, 'klkkjlkjljklk', 'lkjkjlkjk', 'Perempuan', 'Matematika', 1),
-(32, '1', 'D', 'Perempuan', 'Matematika', 1),
-(33, 'ZZZZ', 'ZZZZ', 'Perempuan', 'Matematika', 1),
-(34, '4', 'A', 'Perempuan', 'Matematika', 1),
-(35, 'judul', 'asjdlasjd', 'Perempuan', 'Matematika', 1),
-(36, 'IRPANG2', 'etet', 'Perempuan', 'Matematika', 1),
-(37, 'hghl;\'l;lkh', 'qweghjkl;', 'Perempuan', 'Matematika', 1),
-(38, 'uji', 'uji', 'Perempuan', 'Matematika', 1),
-(39, 'akas12345', 'akasalslsakda;sdlka;kd;a', 'Perempuan', 'Matematika', 1);
+(7, 'H12112262', 'ANDI DIAN ANGREANI BJ', 'Laki-laki', 'Statistika', 1),
+(32, 'H12112271', 'MUTEK', 'Laki-laki', 'Statistika', 1),
+(34, 'H11112271', 'IBNU WINARDY', 'Perempuan', 'Matematika', 1),
+(37, 'H12112286', 'SITI AISYAH', 'Perempuan', 'Statistika', 1),
+(39, 'H11112289', 'OKTOSAR SABARI', 'Perempuan', 'Matematika', 1);
 
 --
 -- Indexes for dumped tables
