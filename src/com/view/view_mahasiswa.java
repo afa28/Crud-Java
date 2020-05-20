@@ -100,6 +100,7 @@ public final class view_mahasiswa extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Data Mahasiswa");
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -314,7 +315,7 @@ public final class view_mahasiswa extends javax.swing.JFrame {
         });
 
         input_halaman.setFont(new java.awt.Font("Segoe UI Light", 0, 12)); // NOI18N
-        input_halaman.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "5", "10", "25", "50", "100", "250", "500" }));
+        input_halaman.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "10", "50", "100" }));
         input_halaman.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 input_halamanActionPerformed(evt);
@@ -329,7 +330,7 @@ public final class view_mahasiswa extends javax.swing.JFrame {
         jLabel11.setText("Halaman 1 dan 2");
 
         btn_awal.setFont(new java.awt.Font("Segoe UI Light", 1, 12)); // NOI18N
-        btn_awal.setText("<o");
+        btn_awal.setText("<<");
         btn_awal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_awalActionPerformed(evt);
@@ -353,7 +354,7 @@ public final class view_mahasiswa extends javax.swing.JFrame {
         });
 
         btn_akhir.setFont(new java.awt.Font("Segoe UI Light", 1, 12)); // NOI18N
-        btn_akhir.setText("o>");
+        btn_akhir.setText(">>");
         btn_akhir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_akhirActionPerformed(evt);
@@ -382,9 +383,9 @@ public final class view_mahasiswa extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btn_setelah, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btn_akhir, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 416, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btn_akhir)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 410, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(jPanel1Layout.createSequentialGroup()
                             .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
